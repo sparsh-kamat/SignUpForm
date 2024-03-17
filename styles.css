@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+/* SPLIT CONTAINER BANNER AND CONTAINER FORM INTO TWO HALVES */
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.container-banner {
+    background-image: url(./banner.jpg);
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: rgba(5, 29, 10, 0.7);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+
+}
+
+
+#logotext {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 300;
+    margin-left: 1rem;
+    font-family: 'norsebold';
+}
+
+
+
+.container-form {
+    flex: 1;
+    width: 100%; ;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    color: #ff6b6b;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left : 2rem;
+    font-family: 'Trebuchet MS';
+}
+#dt2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #ff6b6b;
+    font-family: 'Trebuchet MS';
+}
+
+/* FORM STYLES */
+.form-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+}
+
+td {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;  
+}
+
+.form-group label {
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-group input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #ff6b6b;
+}
+
+.form-group button {
+    padding: 0.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6b6b;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 10rem;
+}
+
+.form-group button:hover {
+    background-color: #ff4d4d;
+}
+
+.login {
+    margin:2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #ff6b6b;
+}
+
+
+

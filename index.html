@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-banner">
+            <div class="banner">
+                <img src="logo.png" alt="banner">
+                <p id="logotext">Varg</p>
+            </div>
+        </div>
+        <div class="container-form">
+            <div class="text">
+                <p id ="dt1">This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Necessitatibus, commodi!</p>
+                <p id ="dt2">Sign up to get started</p>
+            </div>
+
+            <form action="" method="post"></form>
+            <div class="form-card">
+                <!-- first name, last name , email, phone number, pasword and confirm pass -->
+                <table>
+                    <tr>
+                        <td>
+                            <div class="form-group">
+                                <label for="first-name">First Name</label>
+                                <input type="text" name="first-name" id="first-name" required>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" name="last-name" id="last-name" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" name="phone" id="phone" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password" required>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group">
+                                <label for="confirm-password">Confirm Password</label>
+                                <input type="password" name="confirm-password" id="confirm-password" required>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="bottomdiv">
+                <div class="form-group">
+                    <button type="submit">Sign Up</button>
+                </div>
+                </form>
+                <div class="login">
+                    <p>Already have an account? <a href="login.php">Login</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
